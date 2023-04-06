@@ -48,7 +48,7 @@
 // // 2. як правильно побудувати структуру рендера у відношенні ImageList та ImageItem ?
 // // 3. як потім протанути до них необхідні параметри якщо вони нам приходять з сервера ?
 
-import React, { Component, useEffect, useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { ToastContainer } from 'react-toastify';
 import css from '../components/App.module.css';
 import getImages from '../API/getImages';
